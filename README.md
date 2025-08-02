@@ -168,7 +168,7 @@ kubectl apply -f mlflow-tracking-secret.yaml
 kubectl apply -f mlflow-tracking-template.yaml
 ```
 
-Your can now access the MLflow tracking server on OKE with `http://<ingress-nginx-controller-EXTERNAL-IP/tracking/` 
+You can now access the MLflow tracking server on OKE with `http://<ingress-nginx-controller-EXTERNAL-IP/tracking/` 
 
 ## Architecture Diagram
 
